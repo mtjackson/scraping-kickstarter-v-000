@@ -4,6 +4,7 @@ require 'pry'
 #require_relative '.'
 
 def create_project_hash
+  Nokogiri::HTML(open(""))
   binding.pry
 end
 
